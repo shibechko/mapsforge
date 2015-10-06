@@ -250,23 +250,24 @@ public final class MapFileWriter {
 	}
 
 	// IO
+
 	static final int HEADER_BUFFER_SIZE = 0x100000; // 1MB
 
 	static final Logger LOGGER = Logger.getLogger(MapFileWriter.class.getName());
 
 	static final int MIN_TILE_BUFFER_SIZE = 0xF00000; // 15MB
 
-	static final int POI_DATA_BUFFER_SIZE = 0x100000; // 1MB
+	static final int POI_DATA_BUFFER_SIZE = 0x3200000;
 
-	static final int TILE_BUFFER_SIZE = 0xA00000; // 10MB
+	static final int TILE_BUFFER_SIZE = 0x3200000;
 
 	// private static final int PIXEL_COMPRESSION_MAX_DELTA = 5;
 
 	static final int TILES_BUFFER_SIZE = 0x3200000; // 50MB
 
-	static final int WAY_BUFFER_SIZE = 0x100000; // 10MB
+	static final int WAY_BUFFER_SIZE = 0x3200000; // 10MB
 
-	static final int WAY_DATA_BUFFER_SIZE = 0xA00000; // 10MB
+	static final int WAY_DATA_BUFFER_SIZE = 0x6400000; // 10MB
 
 	// private static final CoastlineHandler COASTLINE_HANDLER = new
 	// CoastlineHandler();
